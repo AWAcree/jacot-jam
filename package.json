@@ -2,7 +2,7 @@
   "name": "jacot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "script.js",
   "scripts": {
     "build": "npx @11ty/eleventy --input=src",
     "start": "npx @11ty/eleventy --input=src --serve"
