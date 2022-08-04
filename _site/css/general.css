@@ -76,14 +76,13 @@ html {
 }
 
 body {
-  font-family: 'Crimson Text', serif;
+  font-family: "Crimson Text", serif;
   line-height: 1;
   font-weight: 400;
   color: #fff;
 
   /* Only works if there is nothing absolutely positioned in relation to body */
   overflow-x: hidden;
-  
 }
 
 /**************************/
@@ -200,7 +199,7 @@ body {
 
 .btn--full:hover,
 .btn--full:active {
-  background-color: #555;
+  background-color: #8c1c13;
 }
 
 .btn--outline:link,
@@ -220,15 +219,14 @@ body {
 }
 
 .btn--form {
-  background-color: #45260a;
+  background-color: #777;
   color: #fdf2e9;
   align-self: end;
   padding: 1.2rem;
 }
 
 .btn--form:hover {
-  background-color: #fff;
-  color: #555;
+  background-color: #8c1c13;
 }
 
 .link:link,

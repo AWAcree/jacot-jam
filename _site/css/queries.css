@@ -64,14 +64,9 @@
   }
 
   .hero {
-    grid-template-columns: 1fr;
-    padding: 0 8rem;
+    /* grid-template-columns: 1fr;
+    padding: 0 8rem; */
     gap: 6.4rem;
-  }
-
-  .hero-text-box,
-  .hero-img-box {
-    text-align: center;
   }
 
   .hero-img {
@@ -158,6 +153,7 @@
   .main-nav-link:link,
   .main-nav-link:visited {
     font-size: 3rem;
+    color: #000;
   }
 }
 
@@ -175,23 +171,32 @@
     margin-bottom: 4.8rem;
   }
 
-  .pricing-plan {
-    width: 100%;
+  .grid--footer {
+    display: flex;
+    flex-direction: column;
   }
-
-  /* .grid--footer {
-    grid-template-columns: repeat(6, 1fr);
-  } */
 
   .logo-col,
   .address-col {
-    grid-column: span 3;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
   }
 
   .nav-col {
     grid-row: 1;
     grid-column: span 2;
     margin-bottom: 3.2rem;
+  }
+  .hero-text-box,
+  .hero-img-box {
+    text-align: center;
+  }
+
+  .hero {
+    grid-template-columns: unset;
+    height: 100%;
   }
 }
 
@@ -210,11 +215,11 @@
     grid-template-columns: 1fr;
   }
 
-  .btn,
+  /* .btn,
   .btn:link,
   .btn:visited {
     padding: 2.4rem 1.6rem;
-  }
+  } */
 
   .section-hero {
     padding: 2.4rem 0 6.4rem 0;
