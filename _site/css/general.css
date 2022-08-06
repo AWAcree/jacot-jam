@@ -79,7 +79,7 @@ body {
   font-family: "Crimson Text", serif;
   line-height: 1;
   font-weight: 400;
-  color: #fff;
+  color: #fdf2e9;
 
   /* Only works if there is nothing absolutely positioned in relation to body */
   overflow-x: hidden;
@@ -136,7 +136,7 @@ body {
 .heading-secondary,
 .heading-tertiary {
   font-weight: 700;
-  color: #fff;
+  color: #fdf2e9;
   /* color: #45260a; */
   /* color: #343a40; */
   letter-spacing: -0.5px;
@@ -194,7 +194,7 @@ body {
 .btn--full:link,
 .btn--full:visited {
   background-color: #555;
-  color: #fff;
+  color: #fdf2e9;
 }
 
 .btn--full:hover,
@@ -205,7 +205,7 @@ body {
 .btn--outline:link,
 .btn--outline:visited {
   background-color: blue;
-  color: #fff;
+  color: #fdf2e9;
 }
 
 .btn--outline:hover,

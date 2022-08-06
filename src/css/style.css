@@ -21,12 +21,12 @@
 /**************************/
 /* NAVIGATION */
 /**************************/
-.logo-nav {
-}
+/* .logo-nav {
+} */
 
 .logo-nav a {
   text-decoration: none;
-  color: #fff;
+  color: #fdf2e9;
   font-size: 4.4rem;
   font-weight: 700;
 }
@@ -42,7 +42,7 @@
 .main-nav-link:visited {
   display: inline-block;
   text-decoration: none;
-  color: #fff;
+  color: #fdf2e9;
   font-weight: 500;
   font-size: 1.8rem;
   transition: all 0.3s;
@@ -57,7 +57,7 @@
 .main-nav-link.nav-cta:visited {
   padding: 1.2rem 2.4rem;
   border-radius: 9px;
-  color: #fff;
+  color: #fdf2e9;
   background-color: #777;
 }
 
@@ -78,7 +78,7 @@
 .icon-mobile-nav {
   height: 4.8rem;
   width: 4.8rem;
-  color: #fff;
+  color: #fdf2e9;
 }
 
 .nav-open .icon-mobile-nav {
@@ -181,8 +181,8 @@
   background-color: #777;
 }
 
-.cta-container {
-}
+/* .cta-container {
+} */
 
 .cta {
   display: flex;
