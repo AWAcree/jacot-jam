@@ -59,6 +59,12 @@
   border-radius: 9px;
   color: #fdf2e9;
   background-color: #777;
+ 
+}
+select {
+  -webkit-appearance:none;
+  appearance: none;
+  -moz-appearance: none;
 }
 
 .main-nav-link.nav-cta:hover,
